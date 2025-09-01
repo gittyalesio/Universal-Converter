@@ -6,8 +6,7 @@ import sys
 import os
 
 # ---------- RESOURCE PATH FUNCTION ----------
-
-
+
 def resource_path(relative_path):
     """ Get absolute path for PyInstaller """
     try:
@@ -15,8 +14,7 @@ def resource_path(relative_path):
     except Exception:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
-
-
+
 # ---------- UNITS ----------
 
 units_dict = {
@@ -66,8 +64,7 @@ singular_units = {
 
 current_category = "Length"
 
-# ---------- FUNCTIONS ----------
-
+# ---------- FUNCTIONS ----------
 
 def update_units(*args):
     global current_category
@@ -260,9 +257,9 @@ Keyboard Shortcuts:
     textbox.pack(pady=10, padx=10)
     textbox.insert("1.0", help_text)
     textbox.configure(state="disabled")
-
-
+
 # ---------- GUI SETUP ----------
+
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("green")
 
