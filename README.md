@@ -8,7 +8,7 @@ Supports conversions for:
 - Area
 - Volume
 - Temperature
-- Polar coordinates (Degrees, Radians, Gradians)
+- Polar (Degrees, Radians, Gradians)
 
 ## Features
 
